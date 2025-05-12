@@ -35,4 +35,4 @@
 - 캐릭터 정보, 장비 추천, 시뮬레이션 탭으로 구성
 
 ### 📄 `requirements.txt`
-- streamlit을 구동하기 위한 모듈 버전
+- Streamlit을 구동하기 위한 모듈 버전
