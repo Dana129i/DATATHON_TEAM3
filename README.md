@@ -10,13 +10,13 @@
 
 #### 1. `raw data/`
 - Open API를 통해 수집한 원천 데이터와 병합된 데이터 파일 저장용 폴더입니다.
-- 현재는 **전투력(label)** 병합 파일을 포함하여, 장비 및 비장비 데이터를 따로 관리하고 있습니다.
+- 현재는 **전투력(label)** 병합 파일을 포함하여, **장비 및 비장비 데이터**를 따로 관리하고 있습니다.
 > GitHub 업로드 용량 제한으로 인해, 분석에 사용된 원본 데이터 파일은 아래 Google Drive 링크를 통해 제공 <br>
 > 📎 [item.csv (장비 데이터)](https://drive.google.com/uc?id=18Y214mowoIR8UISv-wui5ip1Sl312SKE&export=download) <br>
 > 📎 [item_excluded.csv (비장비 데이터)](https://drive.google.com/uc?id=11HiId8jSasvIXEZVVkJxOqPvzgzS75wK&export=download) 
 
 #### 2. `deep_model_outputs/`
-- 딥러닝 기반 추천 모델의 출력 파일들을 저장합니다.
+- **딥러닝 기반 추천 모델의 출력 파일**들을 저장합니다.
   - `best_model.pt`, 유저 벡터 `.npy`, 프로파일 `.pkl`
 - Streamlit 앱의 딥러닝 탭에서 **추천 시스템 출력**으로 활용됩니다.
 
@@ -26,7 +26,7 @@
 
 #### 1. `데이터톤_데이터수집.ipynb`
 - Open API를 활용한 **데이터 수집 및 병합 자동화** 코드입니다.
-- JSON 응답 파싱, 데이터 단순화, CSV 병합 등 작업이 포함됩니다.
+- JSON 응답 파싱, 데이터 단순화, CSV 병합 등의 작업 포함
 
 #### 2. `데이터톤_시각화,추론통계.ipynb`
 - 수집된 데이터를 기반으로 한 **EDA 및 추론통계 분석 노트북**입니다.
@@ -37,5 +37,5 @@
 - CatBoost 등 머신러닝 모델 학습 및 성능 비교
 
 #### 4. `streamlit_deep_model.py`
-- Streamlit 기반 웹 앱의 딥러닝 추천 탭 구현 코드입니다.
-- 유저 전투력 기반 유사도 매칭 및 딥러닝 결과 반환 기능을 포함합니다.
+- **Streamlit 기반 웹 앱**의 딥러닝 추천 탭 구현 코드입니다.
+- 유저 전투력 기반 유사도 매칭 및 딥러닝 결과 반환
