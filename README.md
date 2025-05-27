@@ -30,7 +30,7 @@
 - Kmeans, DBSCAN 등 **머신러닝 모델 학습 및 성능 비교**를 수행합니다.
 
 #### 📄 `app.ipynb`
-- **Streamlit 기반 웹 앱** 구현 통합코드입니다.
+- **Streamlit 웹 앱 전체** 구성 코드입니다.
 - 캐릭터 정보, 장비 추천, 시뮬레이션 탭으로 구성됩니다.
 
 #### 📄 `requirements.txt`
