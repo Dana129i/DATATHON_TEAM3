@@ -10,11 +10,14 @@
 
 #### 1. `raw data/`
 - Open API를 통해 수집한 원천 데이터와 병합된 데이터 파일 저장용 폴더입니다.
-- 현재는 **전투력(label)**, **장비 데이터**, **비장비 데이터**가 포함되어 있습니다.
+- 현재는 **전투력(label)** 병합 파일이 포함되어 있습니다.
+> GitHub 업로드 용량 제한으로 인해, 분석에 사용된 원본 데이터 파일은 아래 Google Drive 링크를 통해 제공 <br>
+> 📎 [item.csv (장비 데이터)](https://drive.google.com/uc?id=18Y214mowoIR8UISv-wui5ip1Sl312SKE&export=download) <br>
+> 📎 [item_excluded.csv (비장비 데이터)](https://drive.google.com/uc?id=11HiId8jSasvIXEZVVkJxOqPvzgzS75wK&export=download) 
 
 #### 2. `deep_model_outputs/`
 - 딥러닝 기반 추천 모델의 출력 파일들을 저장합니다.
-  - 예: `best_model.pt`, 유저 벡터 `.npy`, 프로파일 `.pkl` 등
+  - `best_model.pt`, 유저 벡터 `.npy`, 프로파일 `.pkl`
 - Streamlit 앱의 딥러닝 탭에서 **추천 시스템 출력**으로 활용됩니다.
 
 #### 3. `streamlit_deep_model.py`
